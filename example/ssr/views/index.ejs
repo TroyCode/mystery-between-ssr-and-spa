@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <title>My app</title>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <ul id="my-list">
+        <% for (item of list) { %>
+            <li><b><%= item %></b></li>
+        <% } %>
+    </ul>
+    <input id="i-wish" type="text">
+    <script src="/js/ssr.js"></script>
+</body>
+</html>
